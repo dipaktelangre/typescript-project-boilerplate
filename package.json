@@ -1,0 +1,34 @@
+{
+    "name": "typescript-project-boilerplate",
+    "version": "1.0.0",
+    "description": "Conver unit into desired unit ",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "lint:js": "eslint \"*/**/*.{js,ts}\" ",
+        "lint:js:fix": "eslint \"./src/**/*.{js,ts}\" --fix",
+        "lint": "npm run lint:js",
+        "prettier": "prettier --check \"*/**/*.{js,ts,json}\"",
+        "prettier:fix": "prettier --write \"*/**/*.{js,ts,json}\"",
+        "test": "jest --config jestconfig.json",
+        "test:watch": "jest --watch --config jestconfig.json"
+    },
+    "author": "Dipak Telangre",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^26.0.23",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/eslint-plugin-tslint": "^4.22.0",
+        "eslint": "^7.25.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-unused-imports": "^1.1.1",
+        "jest": "^26.6.3",
+        "prettier": "^2.2.1",
+        "prettier-eslint": "^12.0.0",
+        "ts-jest": "^26.5.5",
+        "tslint": "^6.1.3",
+        "typescript": "^4.2.4"
+    }
+}
